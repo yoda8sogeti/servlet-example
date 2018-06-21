@@ -39,6 +39,7 @@ public class MyServlet extends HttpServlet {
 			String user = request.getParameter("user");
 			out.println("<h2> Welcome " + user +"</h2>");
 			out.println("<h2> Github welcome " + user +"</h2>");
+			out.println("<h2> and kick off Jenkins build " + user +"</h2>");
 			
 			
 		} finally {
